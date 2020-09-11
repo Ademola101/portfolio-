@@ -2,64 +2,71 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Ademola | Developer', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Welcome to my website', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: 'Hello, my name is ',
+  name: 'Ademola Ogunmokun',
+  subtitle:
+    'I am a Python and JavaScript developer. I am also a skilled data analyst, comfortable with SQL',
+  cta: 'know more',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  img: 'profile_pic.jpg',
+  paragraphOne:
+    'I am a passion driven young man with excellent human skills. I have always enjoyed the challenges posed by problems that needs to be solved and I derives great joy in problem solving.',
+  paragraphTwo:
+    'I am a graduate of Industrial Chemistry from Federal University of Technology Akure, and I posses excellent analytical and problems solving skills',
+  paragraphThree:
+    'My area of concentration in IT include automation, web proramming and data analysis. I am confortable working with Python programming language, JavaScript, and SQL ',
+  resume: '', // if no resume, the button will not show ,https://www.resumemaker.online/es.php
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'django-admin.png',
+    title: 'Django-admin user interface extension',
+    info:
+      'An extension of django admin change list page displaying user metrics and also custom action button, in addition with email functionality ',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'http://myprojectusermetrics.herokuapp.com/myapp/profile/',
+    repo: 'https://github.com/Ademola101/Django-back-end-extension-', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'Django_board.png',
+    title: 'Django board application',
+    info:
+      'A web app in which topics are created under each appopriate sections and other registered users contributes',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/Ademola101/My-Django-project-', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'data.png',
+    title: 'Story telling with data',
+    info:
+      'Data analysis and visualization of some selected raw data in order to gain valuable insight on the data. This is using Python data science libraries. ',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/Ademola101/Data-visualization-', // if no repo, the button will not show up
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: 'For any information or enquiries please contact me through my email',
+  btn: 'Click to send email ',
+  email: 'ademolaogunmokun@yahoo.com',
 };
 
 // FOOTER DATA
@@ -68,7 +75,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
+      url: 'http://www.twitter.com/ademola_isr',
     },
     {
       id: nanoid(),
@@ -78,17 +85,17 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'http://www.linkedin.com/in/ademola-ogunmokun',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/Ademola101',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
