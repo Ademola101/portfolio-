@@ -12,13 +12,13 @@ export const heroData = {
   title: 'Hello, my name is ',
   name: 'Ademola Ogunmokun',
   subtitle:
-    'I am a web developer skilled in both front-end and back-end web development.My stacks include Django, Bootstrap, CSS and JavaScript. I am also a skilled data analyst, comfortable with Excel, Pandas and SQL',
+    'I am a web developer skilled in both front-end and back-end web development. My stacks include Django, Bootstrap, CSS and JavaScript. I am also a skilled data analyst, comfortable with Excel, Pandas and SQL',
   cta: 'know more',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'ademola.jpg',
+  img: 'profile_pic.jpg',
   paragraphOne:
     'I am a passion driven young man with excellent human skills. I have always enjoyed the challenges posed by problems that needs to be solved and I derives great joy in problem solving.',
   paragraphTwo:
