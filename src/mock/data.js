@@ -18,7 +18,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile_pic.jpg',
+  img: 'ademola.jpg',
   paragraphOne:
     'I am a passion driven young man with excellent human skills. I have always enjoyed the challenges posed by problems that needs to be solved and I derives great joy in problem solving.',
   paragraphTwo:
